@@ -6,8 +6,8 @@
 - **Generate a Fixed-Width File:** Using a provided specification (`spec.json`), generate a fixed-width file. The offset (length) provided in the spec file represents the maximum number of characters each field can hold.
 - **Implement a Parser:** Create a parser that can read the fixed-width file and convert it into a delimited file, such as CSV.
 - **Constraints:** 
-  - **No External Libraries:** Do not use Python libraries like `pandas` for parsing. The task should be completed using the Python standard library.
-  - **Language Choices:** You may use Python or Scala for this task.
+  - **No External Libraries:**  Python standard library.
+  - **Language Choices:** Python
 
 ### Assumptions
 - The `spec.json` file provides the column names and the maximum number of characters each column can hold in the file.
